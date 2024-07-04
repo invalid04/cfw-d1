@@ -1,6 +1,10 @@
 name = "cfw-d1"
 compatibility_date = "2023-12-01"
 
+[[d1_databases]]
+database_name = "cfw-d1"
+database_id ="ab8315d4-ba20-4f6b-95f8-0438b421fbe8"
+
 # [vars]
 # MY_VAR = "my-variable"
 
@@ -11,11 +15,6 @@ compatibility_date = "2023-12-01"
 # [[r2_buckets]]
 # binding = "MY_BUCKET"
 # bucket_name = "my-bucket"
-
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "my-database"
-# database_id = ""
 
 # [ai]
 # binding = "AI"
