@@ -2,7 +2,9 @@
   "name": "cfw-d1",
   "scripts": {
     "dev": "wrangler dev src/index.ts",
-    "deploy": "wrangler deploy --minify src/index.ts"
+    "deploy": "wrangler deploy --minify src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:up": "drizzle-kit up"
   },
   "dependencies": {
     "@libsql/client": "^0.7.0",
