@@ -2,6 +2,7 @@ name = "cfw-d1"
 compatibility_date = "2023-12-01"
 
 [[d1_databases]]
+binding = "DB"
 database_name = "cfw-d1"
 database_id ="ab8315d4-ba20-4f6b-95f8-0438b421fbe8"
 
